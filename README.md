@@ -4,9 +4,10 @@
 
 ---
 
-Clone [Lee 大](https://leemengtaiwan.github.io/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)的 Code 做為修改
+Clone [Lee 大](https://leemengtaiwan.github.io/a-story-about-airflow-and-data-engineering-using-how-to-use-python-to-catch-up-with-latest-comics-as-an-example.html)的 Code 做為修改。
 
-主要是因為在我的環境啟動時跑出現關於 chrome 相關的 Error，所以增加啟動參數
+用工作流管理設定每日排程，漫畫有更新則通知到 Slack 特定頻道上，主要是因為在我的環境啟動時跑出現關於 chrome 相關的 Error，所以增加啟動參數。
+
 
 ```python
 def check_comic_info(**context):
